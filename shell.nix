@@ -6,5 +6,7 @@ pkgs.mkShell {
     go-tools
     delve
     gopls
+    nixpkgs-fmt
+    actionlint
   ];
 }
