@@ -20,14 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: cachix/install-nix-action@v22
-      - run: nix-env -f ./nix/pkgs.nix -iA staticcheck
+      - run: nix-env -f ./nix/pkgs.nix -iA go-tools
       - run: staticcheck ./...
   gofmt:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - uses: cachix/install-nix-action@v22
-      - run: nix-env -f ./nix/pkgs.nix -iA gofmt
+      - run: nix-env -f ./nix/pkgs.nix -iA go
       - run: test -z "$(gofmt -l .)"
   nixpkgs-fmt:
     runs-on: ubuntu-22.04
