@@ -9,4 +9,5 @@ pkgs.mkShell {
     nixpkgs-fmt
     actionlint
   ];
+  GOROOT="${pkgs.go}/share/go";
 }
