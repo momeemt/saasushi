@@ -1,0 +1,4 @@
+go.sum linguist-generated
+nix/sources.json linguist-generated
+nix/sources.nix linguist-generated
+gomod2nix.toml linguist-generated
