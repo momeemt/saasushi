@@ -7,7 +7,8 @@
         (import "${sources.gomod2nix}/overlay.nix")
       ];
     }
-  )}:
+  )
+}:
 let
   goEnv = pkgs.mkGoEnv { pwd = ./.; };
 in
@@ -24,5 +25,5 @@ pkgs.mkShell {
     pkgs.gomod2nix
     pkgs.niv
   ];
-  GOROOT="${pkgs.go}/share/go";
+  GOROOT = "${pkgs.go}/share/go";
 }

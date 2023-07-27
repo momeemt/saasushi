@@ -7,7 +7,8 @@
         (import "${sources.gomod2nix}/overlay.nix")
       ];
     }
-  )}:
+  )
+}:
 pkgs.buildGoApplication {
   pname = "sushi-as-a-service";
   version = "0.1";
