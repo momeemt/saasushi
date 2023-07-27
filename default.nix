@@ -1,9 +1,17 @@
-{ pkgs ? import ./nix/pkgs.nix }:
-pkgs.buildGoModule {
+{ pkgs ? (
+    let
+      sources = import ./nix/sources.nix;
+    in
+    import sources.nixpkgs {
+      overlays = [
+        (import "${sources.gomod2nix}/overlay.nix")
+      ];
+    }
+  )}:
+pkgs.buildGoApplication {
   pname = "sushi-as-a-service";
-  version = "0.1.0";
-
+  version = "0.1";
+  pwd = ./.;
   src = ./.;
-
-  vendorHash = null;
+  modules = ./gomod2nix.toml;
 }

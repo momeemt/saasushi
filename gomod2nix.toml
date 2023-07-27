@@ -1,0 +1,48 @@
+schema = 3
+
+[mod]
+  [mod."github.com/PuerkitoBio/goquery"]
+    version = "v1.8.1"
+    hash = "sha256-z2RaB8PVPEzSJdMUfkfNjT616yXWTjW2gkhNOh989ZU="
+  [mod."github.com/andybalholm/cascadia"]
+    version = "v1.3.1"
+    hash = "sha256-M0u22DXSeXUaYtl1KoW1qWL46niFpycFkraCEQ/luYA="
+  [mod."github.com/antchfx/htmlquery"]
+    version = "v1.3.0"
+    hash = "sha256-tldRSQPTmUodUepZkOnISWjfWPY37MzNN2Pd2/zmvoo="
+  [mod."github.com/antchfx/xmlquery"]
+    version = "v1.3.17"
+    hash = "sha256-rNGUQ9Z7eWnYbbEfNSbKONAQKYWW2AL+jdj24bHN2U8="
+  [mod."github.com/antchfx/xpath"]
+    version = "v1.2.4"
+    hash = "sha256-rT5AtOv49/iGdR6X42Ho+ZEw6+YGQqfNUcYkSp1CU/g="
+  [mod."github.com/gobwas/glob"]
+    version = "v0.2.3"
+    hash = "sha256-hYHMUdwxVkMOjSKjR7UWO0D0juHdI4wL8JEy5plu/Jc="
+  [mod."github.com/gocolly/colly"]
+    version = "v1.2.0"
+    hash = "sha256-r/HcePBUgCTKAAzZGAvXXk5J0//9BYzEQBD7nDF3b00="
+  [mod."github.com/golang/groupcache"]
+    version = "v0.0.0-20210331224755-41bb18bfe9da"
+    hash = "sha256-7Gs7CS9gEYZkbu5P4hqPGBpeGZWC64VDwraSKFF+VR0="
+  [mod."github.com/golang/protobuf"]
+    version = "v1.3.1"
+    hash = "sha256-eLr0yrIO2wTtL+LvFKM3styaQSPnZQYSpaDjajBQT7Q="
+  [mod."github.com/kennygrant/sanitize"]
+    version = "v1.2.4"
+    hash = "sha256-PRNblaLosaB7tvUVgAOZORMZGUo+7Wy7h1Z1mpJLd5c="
+  [mod."github.com/saintfish/chardet"]
+    version = "v0.0.0-20230101081208-5e3ef4b5456d"
+    hash = "sha256-JXlHMCbXB8iRQ9wQBGCeTjDSfgaBwUVOpvcjj0iVn5A="
+  [mod."github.com/temoto/robotstxt"]
+    version = "v1.1.2"
+    hash = "sha256-/0zXEWCnvefGjU2RNxoyZu15KU6WYe9C4m58kyLU6zo="
+  [mod."golang.org/x/net"]
+    version = "v0.12.0"
+    hash = "sha256-zQZBj42+wLLxXwS/e+KNbu8+SukMDxxW23WSi5XQXAA="
+  [mod."golang.org/x/text"]
+    version = "v0.11.0"
+    hash = "sha256-W/XvTPAGIOlFVwZ7rTaEid7pdRtb4wc6a+nyOW99/ks="
+  [mod."google.golang.org/appengine"]
+    version = "v1.6.7"
+    hash = "sha256-zIxGRHiq4QBvRqkrhMGMGCaVL4iM4TtlYpAi/hrivS4="
