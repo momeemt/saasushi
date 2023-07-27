@@ -1,0 +1,26 @@
+{
+    "gomod2nix": {
+        "branch": "master",
+        "description": "Convert applications using Go modules to Nix expressions [maintainer=@adisbladis]",
+        "homepage": "",
+        "owner": "nix-community",
+        "repo": "gomod2nix",
+        "rev": "3cbf3a51fe32e2f57af4c52744e7228bab22983d",
+        "sha256": "11kn199nxcw6zspqawkrsfwv8wzx581wif3day160qlg11ya9di5",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/gomod2nix/archive/3cbf3a51fe32e2f57af4c52744e7228bab22983d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection & NixOS",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "bdddb46f4b058465ad53134d4a118671f9956662",
+        "sha256": "0rrj3f7sjdx0dg64pm5ng8c22yikdrl7ir7cr250iz8cayz23cjg",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/bdddb46f4b058465ad53134d4a118671f9956662.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
